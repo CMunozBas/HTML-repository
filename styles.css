@@ -1,0 +1,115 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-color: rgb(0, 238, 255);
+    color: rgb(0, 0, 0);
+}
+
+.articulos {
+    font-size: 1.8em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 236, 214);
+}
+
+.botones {
+    background-color: aqua;
+    margin-bottom: 20px 20px 20px 20px;
+    border: 4px orange solid;
+}
+
+.botonesfooter {
+   
+    color: rgb(187, 187, 187);
+    border: 4px rgb(129, 255, 135) groove;
+    border-radius: 10%;
+    margin: auto;
+    padding: 0.2em;
+    
+}
+
+.botfu {
+    margin: auto;
+    padding: 2%;
+}
+
+#formulariologin {
+    border: 5px groove goldenrod;
+    width: 30vw;
+    margin: auto;
+    padding: 1em;
+}
+
+#encabezado {
+    background-color: rgb(50, 104, 86);
+    width: 75%;
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(53, 243, 202);
+    border: 2px solid salmon;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#botones-encabezado {
+    background-color: rgb(41, 141, 46);
+    width: fit-content;
+    font-size: 1.5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: auto;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+
+}
+
+#footer {
+    background-color: rgb(16, 63, 47);
+    width: fit-content;
+    font-family: inherit;
+    font-size: 2em;
+    color: aquamarine;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#formcontact {
+    background-color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    color: rgb(7, 7, 92);
+    border: 5px groove goldenrod;
+    width: 30vw;
+    margin: auto;
+    padding: 1em;
+}
+
+#paginaprincipal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#infocontainer {
+    /*copiar*/
+    
+    /*¨fin de copia*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+#allprincipal {
+    width: 90%;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 2px solid rgb(0, 217, 255);
+    border-radius: 15%;
+    padding: 2em;
+    background-color: rgb(199, 109, 0); 
+
+}

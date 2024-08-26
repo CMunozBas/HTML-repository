@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles.css"/>
+    <link rel="stylesheet" type="text/css" href="reset.css" />
     <title>Document</title>
 </head>
 <body>
     <header>
+
+        <div id="encabezado" >
+
         <h1>Web de Prueba Henry!</h1>
-        <h2>Entraste a la seccion de LogIn</h2>
-        <div>
-           <a href="./index.html" >Home</a>
-           <a href="./contacto.html" >Contacto</a>
-           <a href="./login.html" >LogIn</a>
+        <h2>Aqui probare lo aprendido en el modulo HTML</h2>
+        <h3>LogIn</h3>
+
+        </div>
+
+        <div id="botones-encabezado">
+        
+           <a href="./index.html" class="botones" >Home</a>
+           <a href="./contacto.html" class="botones" >Contacto</a>
+           <a href="./login.html" class="botones" >LogIn</a>
+
         </div>
     </header>
 
@@ -21,17 +30,18 @@
     <main>
         <section>
             <article>
+                <div id="formulariologin">
                 <form>
                     <div>
-                        <label for="user">UsserName</label>
-                        <input type="text" name="user" />
+                        <input type="text" name="user" placeholder="User" />
                     </div>
                     <div>
                         <input type="password" name="pass" placeholder="password" />
                     </div>
-                    <button>Send</button>
+                    <button>LogIn</button>
                     
                 </form>
+            </div>
             </article>
         </section>
     </main>
@@ -39,15 +49,26 @@
     <hr/>
 
     <footer>
-        <h4>informacion de contacto y redes sociales</h4>
+
+        <div id="footer">
+
         <div>
-            <span>Whatsapp</span>
-            <span>Instagram</span>
-            <span>Meta</span>
-            <span>Correo</span>
+
+        <h4>informacion de contacto y redes sociales</h4>
+
+        </div>
+
+        <div class="botfu" >
+            
+            <a href="https://web.whatsapp.com/" class="botonesfooter">Whatsapp</a>
+            <a href="https://www.instagram.com/" class="botonesfooter">Instagram</a>
+            <a href="https://www.facebook.com/" class="botonesfooter">Meta</a>
+            <a href="https://mail.google.com/" class="botonesfooter">Correo</a>
+
+        </div>
+
         </div>
 
     </footer>
-    
 </body>
 </html>

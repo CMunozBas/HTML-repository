@@ -1,0 +1,72 @@
+/* reset.css */
+
+/* Elimina el margen y el padding predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Establece un estilo base para los encabezados y el texto */
+  html, body {
+    height: 100%;
+    font-family: sans-serif;
+    font-size: 100%;
+    line-height: 1.5;
+    color: #000;
+    background-color: #fff;
+  }
+  
+  /* Quita el estilo de listas */
+  ol, ul {
+    list-style: none;
+  }
+  
+  /* Remueve el subrayado de los enlaces y establece un color de texto predeterminado */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Normaliza el estilo de imágenes */
+  img {
+    max-width: 100%;
+    display: block;
+  }
+  
+  /* Elimina bordes de elementos form, botones, inputs y textarea */
+  button, input, textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+    border: none;
+    background: none;
+    outline: none;
+  }
+  
+  /* Asegura que los botones y inputs no hereden estilos del navegador */
+  button {
+    background: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  /* Normaliza tablas */
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  /* Oculta bordes de campos de entrada en Chrome */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  /* Elimina el estilo de puntos de lista en listas ordenadas */
+  ol {
+    list-style: none;
+    padding-left: 0;
+  }
+  

@@ -1,81 +1,145 @@
 <!DOCTYPE html>
+
 <html lang="es">
+
    <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="reset.css" />
+    
       <title>Mi Primer Sitio Web</title>
    </head>
 
    <body>
 
     <header>
+
+    <div id="encabezado" >
+
         <h1>Web de Prueba Henry!</h1>
-        <h2>aqui probare lo aprendido en el modulo HTML</h2>
-        <img src="logohenry.png" />
+        <h2>Aqui probare lo aprendido en el modulo HTML</h2>
+        <h3>Inicio</h3>
+    
+    </div>
+    
+    <div  id="botones-encabezado" >
+
         <div>
-           <a href="./index.html">Home</a>
-           <a href="./contacto.html">Contacto</a>
-           <a href="./login.html">LogIn</a>
+
+           <a href="./index.html" class="botones" >Home</a>
+           <a href="./contacto.html" class="botones" >Contacto</a>
+           <a href="./login.html" class="botones" >LogIn</a>
+
         </div>
+            
+    </div>
+
     </header>
 
     <hr/>
 
     <main>
-        <section>
-            <h2>en esta seccion del main va a ir algo de informacion.</h2>
 
-            <article>
-                <h3>articulo 1</h3>
-                <div>        
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam repellat nostrum id obcaecati, fuga maxime cupiditate sit sequi, culpa, illum error. Sed provident distinctio totam obcaecati aliquid aspernatur quae animi.</p>
-                    <p>texto random bla bla bla...</p>
+            <div>
+                <img src="logohenry.png" />
+                <p>bla bla bvla bla.....</p>
+            </div>
+
+            <section>
+
+                <div id="allprincipal">
+
+                    <div id="paginaprincipal">
+
+                            <h2>En esta seccion del main va a ir algo de texto.</h2>
+
+                            <hr/>
+
+                    </div>
+
+                        <div id="infocontainer">
+
+                                <article>
+
+                                    <h3 class="articulos">Articulo 1</h3>
+
+                                    <div>        
+
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> 
+                                    Ipsam repellat nostrum id obcaecati, fuga maxime cupiditate <br>
+                                    sit sequi, culpa, illum error. Sed provident distinctio totam <br>
+                                    obcaecati aliquid aspernatur quae animi.</p>
+                                        <p>texto random bla bla bla...</p>
+
+                                    </div>
+                    
+                                </article>
+
+                                <hr/>   
+
+                                <article>
+
+                                    <h3 class="articulos">Articulo 2</h3>
+
+                                    <div>
+
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> 
+                                    Ipsam repellat nostrum id obcaecati, fuga maxime cupiditate <br>
+                                    sit sequi, culpa, illum error. Sed provident distinctio totam <br>
+                                    obcaecati aliquid aspernatur quae animi.</p>
+                                
+                                        <p>texto random bla bla bla...</p>
+
+                                    </div>
+
+                                </article>
+
+                                <hr/>
+
+                                <article>
+
+                                    <h3 class="articulos">Articulo 3</h3>
+                            
+                                    <div>
+
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> 
+                                    Ipsam repellat nostrum id obcaecati, fuga maxime cupiditate <br>
+                                    sit sequi, culpa, illum error. Sed provident distinctio totam <br>
+                                    obcaecati aliquid aspernatur quae animi.</p>
+                                        <p>texto random bla bla bla...</p>
+
+                                    </div>
+                                <div>
+                        
+                                </article>
+                        </div>
                 </div>
-        
 
-            </article>
+            </section>
 
-            <article>
-                <h3>articulo 2</h3>
-                <div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam repellat nostrum id obcaecati, fuga maxime cupiditate sit sequi, culpa, illum error. Sed provident distinctio totam obcaecati aliquid aspernatur quae animi.</p>
-                    <p>texto random bla bla bla...</p>
-                </div>
-
-            </article>
-
-            <article>
-                <h3>articulo 3</h3>
-                <div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam repellat nostrum id obcaecati, fuga maxime cupiditate sit sequi, culpa, illum error. Sed provident distinctio totam obcaecati aliquid aspernatur quae animi.</p>
-                    <p>texto random bla bla bla...</p>
-                </div>
-                
-
-            </article>
-
-            <hr/>
-
-            <article>
-                <h3>Lorem 4</h3>
-                <div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam repellat nostrum id obcaecati, fuga maxime cupiditate sit sequi, culpa, illum error. Sed provident distinctio totam obcaecati aliquid aspernatur quae animi.</p>
-                    <p>texto random bla bla bla...</p>
-                </div>
-
-            </article>
-        </section>
     </main>
 
     <hr/>
 
     <footer>
-        <h4>informacion de contacto y redes sociales</h4>
+
+        <div id="footer">
+
         <div>
-            <span>Whatsapp</span>
-            <span>Instagram</span>
-            <span>Meta</span>
-            <span>Correo</span>
+
+        <h4>informacion de contacto y redes sociales</h4>
+
+        </div>
+
+        <div class="botfu" >
+            
+            <a href="https://web.whatsapp.com/" class="botonesfooter">Whatsapp</a>
+            <a href="https://www.instagram.com/" class="botonesfooter">Instagram</a>
+            <a href="https://www.facebook.com/" class="botonesfooter">Meta</a>
+            <a href="https://mail.google.com/" class="botonesfooter">Correo</a>
+
+        </div>
+
         </div>
 
     </footer>
